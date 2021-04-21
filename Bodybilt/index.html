@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+<title>Email Signature Generator</title>
+<meta charset="utf-8">
+<meta name = "viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="generator.css"></link>
+<link rel="stylesheet" href="../generalLayout.css"></link>
+<link rel="stylesheet" href="../responsive-pages.css"></link>
+</head>
+
+<body>
+    <img id="logo" src="../BE-Logo.svg">
+
+    <div id="warning">
+        <h2>Please Fill Out All of the Input Fields</h2>
+    </div>
+
+    <div id = "container">
+
+        <!-- User Input -->
+
+        <h4 class="sec-heading">Input Employee Information: </h4>
+        <form id="userForm">
+            <div id = "inputs">         
+                <div class="input">
+                    <label for="name">Name:<span class="asterick">*</span> </label>
+                    <input type="text" name="userName" id="name">
+                </div>
+
+                <div class="input">
+                    <label for="title">Title:<span class="asterick">*</span> </label>
+                    <input type="text" name="userTitle" id="title">
+                </div>
+
+                <div class="optional">
+                    <label for="phone">Direct Phone: </label>
+                    <input type="num" name="userDirect" id="userDirectPeriod" maxlength="12" placeholder="123.456.7890">
+                </div>
+
+                <div class="optional">
+                    <label for="phone">Mobile Phone: </label>
+                    <input type="num" name="userMobile" id="userMobilePeriod" maxlength="12" placeholder="123.456.7890">
+                </div>
+
+                <div class="input">
+                    <label for="email">Email:<span class="asterick">*</span>  </label>
+                    <input type="text" name="userEmail" placeholder="email@domain.com">
+                </div>
+            </div>   
+        </form>
+
+        <!-- Signature Preview -->
+
+        <h4 class="sec-heading">Signature Preview:</h4>
+        <div id="preview" class="previews">
+            
+        </div>
+
+        <button id="copy" onclick="copyToClip(this)">Copy</button>
+        <div id="HTML-toggle">
+            <input type="checkbox" id="HTML-box" onclick="showHTML(this)">
+            <label for="HTML-box">HTML View</label>
+        </div>
+        
+        <!-- HTML Preview -->
+
+        <div id="sec-HTML">
+
+            <h4 class="sec-heading">HTML:</h4>
+            <div id="previewHTML" class="previews">
+
+            </div>
+
+            <button id="copy" onclick="copyToClip(this)">Copy HTML</button>
+
+        </div>
+
+    </div>
+    
+</body>
+
+<script type="text/javascript" src="Bodybilt-Template.js"></script>
+<script type="text/javascript" src="../generator.js"></script>

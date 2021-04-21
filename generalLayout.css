@@ -1,0 +1,163 @@
+h4:first-child{
+  margin-top:.5em;
+}
+
+h4{
+  margin-top: 2.25em;
+  margin-bottom: .25em;
+
+  color: white;
+}
+
+
+#logo{
+  margin-left: 2em;
+
+  width: 150px;
+}
+
+#warning{
+  position: sticky;
+  top: 5px;
+  z-index: 1;
+
+  display:none;
+
+  width: 50%;
+  margin-right:auto;
+  margin-left:auto;
+
+  font-family: "DIN Next W01","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+  font-size: 24px;
+
+  /* margin-top: .5em; */
+
+  padding-top:5px;
+  padding-bottom:5px;
+
+  text-align: center;
+  
+  background-color:#ff9966;
+  color:white;
+}
+
+#container{
+  position: relative;
+
+  font-family: "DIN Next W01","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+
+  margin-right: auto;
+  margin-left:auto;
+  margin-top: 1em;
+
+  background-color: #33244b;
+
+  padding-bottom: 3em;
+  padding-top: 1em;
+}
+
+/* user input css */
+.input{
+  display: inline-block;
+
+  padding-left: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+
+  width: 45%;
+}
+
+.asterick{
+  color:red;
+}
+
+.optional{
+  display: inline-block;
+
+  padding-left: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+
+  width: 45%;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* preview area */
+
+#preview{
+  height: 225px;
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: #757b82;
+}
+
+.previews{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-color:white;
+}
+
+#sec-HTML{
+  display: none;
+}
+
+#previewHTML{
+  font-size: 12px;
+}
+
+/* user input area */
+
+form{
+  margin-top: 1em;
+
+  background-color: white;
+}
+
+label{
+  display: block;
+  font-size: 14px;
+}
+
+input{
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding: .5em;
+}
+
+button{
+  font-weight: 500;
+  font-size: 14px;
+
+  border: none;
+
+  background-color:#c5d230;
+  color:#33244b;
+
+  float: right;
+
+  padding: .75em;
+}
+
+button:hover {
+  background-color: #25143a;
+  color: #c5d230;
+}
+
+#HTML-toggle{
+  margin-bottom: 2em;
+}
+
+#HTML-toggle label{
+  display: initial;
+
+  color: white;
+}

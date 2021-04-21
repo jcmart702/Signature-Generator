@@ -1,0 +1,77 @@
+/* responsive width */
+
+@media screen and (min-width: 1146px){
+    #container{
+        width:40%;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    input{
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 942px) and (max-width: 1145px){
+    #container{
+        width: 70%;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    input{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 941px) and (min-width: 472px){
+    #container{
+        width: 75%;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    input{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 471px){
+    #container{
+        width: 80%;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    #previewHTML{
+        font-size:11px;
+    }
+
+    input{
+        width: 165%;
+    }
+}
+
+@media screen and (max-width: 1145px){
+    #warning{
+        width: 90%;
+    }
+}
+
+input{
+    border: 1px solid black;
+}
+
+select{
+    border: 1px solid black;
+}
+
+#HTML-box{
+    width: auto;
+}
+
+#preview{
+    padding-left: .3em;
+    padding-top: .25em;
+}
+
+p{
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
